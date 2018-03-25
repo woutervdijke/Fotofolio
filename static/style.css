@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: Avenir, "Lucida Grande", sans-serif;
+}
+
+a {
+    color: black;
+}
+
+.portfoliomenu  {
+    border-color: black !important;
+}
+
+#container {
+    width: 100vw;
+    min-width: 377px;
+    min-height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.textpage{
+    background-image: url("img/homebg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.portfoliopage {
+    /*background-image: url("img/dark_Tire.png");*/
+    /*background-size: 10%;*/
+}
+
+
+
+#mainmenu {
+    width: calc(55% + 80px);
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    /*background: rgba(255,255,255,1);*/
+}
+
+.portfoliomenu {
+    /*background: rgba(255,255,255,0.1) !important;*/
+}
+
+#mainmenu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#mainmenu li {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+#mainmenu li a {
+    font-weight: 600;
+    font-style: italic;
+    display: block;
+    padding: 8px;
+}
+
+#mainmenu li:first-child {
+    border-left: none;
+}
+
+#mainmenu li a{
+    text-decoration: none;
+    color: #000000;
+
+}
+
+#maintext {
+    overflow: hidden;
+    font-size: 1.2em;
+    text-align: justify;
+    border-radius: 1px;
+    width: 55%;
+    margin: 0 auto;
+    padding: 40px;
+    background: rgba(255,255,255,1)
+}
+
+#maintext h1, p {
+    margin: 10px;
+}
+
+#portfoliowrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#portfolioimages {
+  padding: 15px;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px 15px;
+}
+
+@media (max-width: 1100px) {
+    #portfolioimages {
+    grid-template-columns: repeat(2, 1fr);
+        }  }
+
+@media (max-width: 740px) {
+    #portfolioimages {
+    grid-template-columns: repeat(1, 1fr);
+        }  }
+
+#portfolioimages li {
+    display: inline-block;
+    list-style: none;
+}
+
+#portfolioimages li, .filling-empty-space-childs {
+    /*min-width: 25%;*/
+    /*max-width: 450px;*/
+    /*margin: 10px;*/
+}
+
+.filling-empty-space-childs {
+    height:0; /*Important! for the divs to collapse should they fall in a new row*/
+}
+
+#portfolioimages img {
+    width: 100%;
+
+}
+
+#portfolioimages li p {
+    margin: 0;
+    /*color: white;*/
+}
+
+.imgtitle {
+    font-weight: bold;
+}
+
+.imgdesc {
+    text-align: justify;
+}

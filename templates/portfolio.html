@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link href="static/style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+<div id="container" class="portfoliopage">
+
+<nav id="mainmenu" >
+    <ul>
+        <li><a href="/">Home</a></li>
+        {% for page in pages %}
+        <li><a href="/{{ page }}">{{ page|title }}</a></li>
+        {% endfor %}
+    </ul>
+</nav>
+
+<div id="portfoliowrapper">
+    
+    <ul id="portfolioimages">
+        {% for img in images %}
+        <li><img src="/get_image?folder={{ folder }}&file={{ img.filename }}"><p class="imgtitle"> {{ img.title }} </p> <p class="imgdesc"> {{ img.desc }} </p></li>
+        {% endfor %}
+    </ul>
+
+</div>
+
+</div>
