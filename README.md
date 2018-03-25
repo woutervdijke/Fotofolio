@@ -16,14 +16,14 @@ A fancy background image for all text pages can be set by adding it to the stati
 # Screenshots
 
 
-###Homepage without background image
+### Homepage without background image
 ![Homepage without background image](https://i.imgur.com/KgEZeV2.png)
 
-###Homepage with background image
+### Homepage with background image
 ![Homepage with background image](https://i.imgur.com/wW7bxtz.png)
 
-###Portfolio page with 3 columns
+### Portfolio page with 3 columns
 ![Porftolio page 3 columns](https://i.imgur.com/ScwG8mZ.jpg)
 
-###The site is fully responsive
+### The site is fully responsive
 ![Portfolio page 2 columns](https://i.imgur.com/ZhRlRj9.png)
