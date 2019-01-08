@@ -22,6 +22,8 @@ A fancy background image for all text pages can be set by adding it to the stati
 ### Homepage with background image
 ![Homepage with background image](https://i.imgur.com/wW7bxtz.png)
 
+To add a background image to the home folder, place the image in the `static/img` folder and name it `homebg.jpg`, or change the filename in `static/style.css`.
+
 ### Portfolio page with 3 columns
 ![Porftolio page 3 columns](https://i.imgur.com/ScwG8mZ.jpg)
 
