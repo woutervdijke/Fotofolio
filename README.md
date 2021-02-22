@@ -5,7 +5,7 @@ This is Fotofolio. It's a Python-based app that turns photos and text files into
 
 
 
-On Fotofolio, your website lives in the *content* folder and exists of markdown text files (like this one!) and folders of jpg images. There are no sub-pages, there is no in-depth navigation. Just photo's and text files.
+On Fotofolio, your website lives in the *content* folder and exists of markdown text files (like this one!) and folders of jpg images. There are no sub-pages, there is no in-depth navigation. Just photos and text files.
 
 The only required file is `index.md`. This is your home page.
 
